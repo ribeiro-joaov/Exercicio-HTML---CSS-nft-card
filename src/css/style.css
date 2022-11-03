@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz@8..144&display=swap");
+
+html {
+  font-family: outfit, sans-serif;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.nft-card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 hsl(0, 0%, 0%);
+  max-width: 350px;
+  padding: 20px;
+}
+.nft-image {
+  border-radius: 10px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  font-weight: bold;
+  margin: 25px 0 20px;
+}
+.description {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+    margin-bottom: 15px;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+  font-size: 16px;
+  margin-bottom: 15px;
+  float: left;
+}
+.price img {
+  margin-right: 5px;
+  float: left;
+}
+.expiration {
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+  margin-bottom: 15px;
+  float: right;
+}
+.expiration img {
+  margin-right: 5px;
+  float: left;
+}
+
+.creator {
+  border-top: 1px solid hsl(215, 32%, 27%);
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.creator img {
+  max-width: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.creator p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-left: 15px;
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+}
+.creator a {
+  color: white;
+  font-size: 16px;
+}
